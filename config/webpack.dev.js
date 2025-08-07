@@ -7,6 +7,7 @@ const devConfig = {
   devServer: {
     port: 3000,
     historyApiFallback: true,
+    allowedHosts: 'all',
     // proxy: {
     //   "/api": {
     //     target: "https://your-api-url",
